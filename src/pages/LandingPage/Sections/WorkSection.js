@@ -27,7 +27,6 @@ export default function WorkSection() {
             <h4 className={classes.description}>
               Let us know what's on your mind. We are here to help.
             </h4>
-            <form>
               <GridContainer>
                 <GridItem xs={12} sm={12} md={6}>
                   <CustomInput
@@ -63,7 +62,6 @@ export default function WorkSection() {
                   <Button type="submit" color="primary">Send Message</Button>
                 </GridItem>
               </GridContainer>
-            </form>
           </GridItem>
         </GridContainer>
       </form>
